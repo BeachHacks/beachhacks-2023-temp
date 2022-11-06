@@ -18,15 +18,26 @@ body {
   color: #FFFFFF;
 }
 
-
+/* adjusting the entire content of the site*/
 .frame-1 {
   padding-top: 210px;
 }
 
+.frame-2 {
+  padding-top: 130px;
+}
+
+/* adjusing spacing */
 .drop-down-spacing {
   padding-top: 120px;
 }
 
+.logo-spacing {
+  padding-top: 20px;
+  margin-left: 640px;
+}
+
+/* About page rectangles*/
 .blue-rectangle  {
   background-color: var(--blue);
   border:1px none;
@@ -47,10 +58,6 @@ body {
   margin-top: 15px;
 }
 
-.logo-spacing {
-  padding-top: 20px;
-  margin-left: 640px;
-}
 
 /*overlaying blue and white rectangles*/
 #container {
