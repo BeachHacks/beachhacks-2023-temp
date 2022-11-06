@@ -6,7 +6,7 @@ import Grid from "@mui/material/Grid";
 function App() {
   return (
     <body>
-      <div>
+      <div className="frame-1">
         <Grid
           container
           direction="column"
@@ -16,20 +16,24 @@ function App() {
           <Grid item xs={6}>
             <img src={logo} alt="beachhacks logo" />
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={4}>
             <h1>Coming Soon</h1>
           </Grid>
-          <Grid item xs={6}>
-            <h3>February 25-26th, 2023</h3>
+          <Grid item xs={2}>
+            <h2>February 25-26th, 2023</h2>
           </Grid>
           <Grid item xs={6}>
-            <h4>
+            <h3>
               Our website is under construction. We'll be here soon with our new
               awesome site.
-            </h4>
+            </h3>
           </Grid>
           <Grid item xs={6}>
-            <img src={dropDown} alt="dropdown button" />
+            <img
+              className="drop-down-spacing"
+              src={dropDown}
+              alt="dropdown button"
+            />
           </Grid>
         </Grid>
       </div>
