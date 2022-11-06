@@ -1,7 +1,9 @@
 import React from "react";
-import "./App.css";
+import "./styles/App.css";
+
 import logo from "./assets/beachHacksLogo.png";
 import dropDown from "./assets/scrollDownButton.png";
+
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
