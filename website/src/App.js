@@ -66,6 +66,8 @@ function App() {
           </div>
         </Grid>
       </Grid>
+
+      <img src={dropDown} alt="dropdown button" />
     </body>
   );
 }
