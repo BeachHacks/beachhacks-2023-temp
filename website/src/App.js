@@ -41,36 +41,29 @@ function App() {
         alignItems="center"
       >
         <Grid item xs={1}>
-          <Card>
-            <CardContent>
-              <img src={student} alt="student icon" />
-              <Typography>700+ Students</Typography>
-            </CardContent>
-          </Card>
+          <div id="container">
+            <div className="blue-rectangle" id="infoi" />
+            <div className="blurred-white-rectangle" id="navi" />
+          </div>
         </Grid>
         <Grid item xs={1}>
-          <Card>
-            <CardContent>
-              <img src={earth} alt="earth icon" />
-              <Typography>10+ Countries</Typography>
-            </CardContent>
-          </Card>
+          <div id="container">
+            <div className="blue-rectangle" id="infoi" />
+            <div className="blurred-white-rectangle" id="navi" />
+          </div>
+        </Grid>
+
+        <Grid item xs={1}>
+          <div id="container">
+            <div className="blue-rectangle" id="infoi" />
+            <div className="blurred-white-rectangle" id="navi" />
+          </div>
         </Grid>
         <Grid item xs={1}>
-          <Card>
-            <CardContent>
-              <img src={clock} alt="clock icon" />
-              <Typography>144+ Hours</Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={1}>
-          <Card>
-            <CardContent>
-              <img src={folder} alt="foldericon" />
-              <Typography>120+ Projects</Typography>
-            </CardContent>
-          </Card>
+          <div id="container">
+            <div className="blue-rectangle" id="infoi" />
+            <div className="blurred-white-rectangle" id="navi" />
+          </div>
         </Grid>
       </Grid>
     </body>
