@@ -36,38 +36,40 @@ function About() {
           </Grid>
         </Grid>
 
-        <Grid
-          container
-          direction="row"
-          justifyContent="space-evenly"
-          alignItems="center"
-        >
-          <Grid item>
-            <div id="container">
-              <div className="blue-rectangle" id="infoi" />
-              <div className="blurred-white-rectangle" id="navi" />
-            </div>
-          </Grid>
-          <Grid item>
-            <div id="container">
-              <div className="blue-rectangle" id="infoi" />
-              <div className="blurred-white-rectangle" id="navi" />
-            </div>
-          </Grid>
+        <div className="rectangle-spacing">
+          <Grid
+            container
+            direction="row"
+            justifyContent="space-evenly"
+            alignItems="center"
+          >
+            <Grid item>
+              <div id="container">
+                <div className="blue-rectangle" id="infoi" />
+                <div className="blurred-white-rectangle" id="navi" />
+              </div>
+            </Grid>
+            <Grid item>
+              <div id="container">
+                <div className="blue-rectangle" id="infoi" />
+                <div className="blurred-white-rectangle" id="navi" />
+              </div>
+            </Grid>
 
-          <Grid item>
-            <div id="container">
-              <div className="blue-rectangle" id="infoi" />
-              <div className="blurred-white-rectangle" id="navi" />
-            </div>
+            <Grid item>
+              <div id="container">
+                <div className="blue-rectangle" id="infoi" />
+                <div className="blurred-white-rectangle" id="navi" />
+              </div>
+            </Grid>
+            <Grid item>
+              <div id="container">
+                <div className="blue-rectangle" id="infoi" />
+                <div className="blurred-white-rectangle" id="navi" />
+              </div>
+            </Grid>
           </Grid>
-          <Grid item>
-            <div id="container">
-              <div className="blue-rectangle" id="infoi" />
-              <div className="blurred-white-rectangle" id="navi" />
-            </div>
-          </Grid>
-        </Grid>
+        </div>
 
         {/* <img src={dropDown} alt="dropdown button" /> */}
       </body>

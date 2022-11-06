@@ -6,8 +6,6 @@
   --font-size-xl: 100px;
   --font-family-poppins: "Poppins";
 
-  --blue: rgba(0, 71, 255, 1);
-  --white: rgba(255, 255, 255, 1);
 } */
 
 body {
@@ -37,9 +35,13 @@ body {
   margin-left: 640px;
 }
 
+.rectangle-spacing {
+  padding-top: 50px;
+}
+
 /* About page rectangles*/
 .blue-rectangle  {
-  background-color: var(--blue);
+  background-color: rgba(0, 71, 255, 1);
   border:1px none;
   border-radius: 20px;
   height: 259px;
@@ -47,7 +49,7 @@ body {
 }
 
 .blurred-white-rectangle {
-  background-color: var(--white);
+  background-color: rgba(255, 255, 255, 1);
   border: 1px none;
   border-radius: 20px;
   filter: blur(4px);
