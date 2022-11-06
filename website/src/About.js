@@ -68,6 +68,12 @@ function About() {
                 <div className="blurred-white-rectangle" id="navi" />
               </div>
             </Grid>
+            <Grid item>
+              <div id="container">
+                <div className="blue-rectangle" id="infoi" />
+                <div className="blurred-white-rectangle" id="navi" />
+              </div>
+            </Grid>
           </Grid>
         </div>
 
