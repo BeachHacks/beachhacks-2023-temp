@@ -8,6 +8,8 @@ import Typography from "@mui/material/Typography";
 function Home() {
   return (
     <div className="frame-1">
+      <img src={logo} alt="beachhacks logo" className="logo-spacing" />
+
       <Grid
         container
         direction="column"
@@ -16,18 +18,15 @@ function Home() {
         spacing={4}
       >
         <Grid item>
-          <img src={logo} alt="beachhacks logo" />
-        </Grid>
-        <Grid item>
           <Typography variant="h1">Coming Soon</Typography>
         </Grid>
         <Grid item>
           <Typography variant="h4">February 25-26th, 2023</Typography>
         </Grid>
         <Grid item>
-          <Typography variant="h5">
-            Our website is under construction. We'll be here soon with our new
-            awesome site.
+          <Typography variant="h5" align="center">
+            Our website is under construction. We'll be here soon <br /> with
+            our new awesome site.
           </Typography>
         </Grid>
         <Grid item>
