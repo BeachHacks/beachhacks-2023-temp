@@ -52,3 +52,13 @@ h3 {
   padding-top: 80px;
 }
 
+.beachhacks-description {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  width: 949px;
+}
+
+
