@@ -3,6 +3,7 @@ import "./App.css";
 import logo from "./assets/beachHacksLogo.png";
 import dropDown from "./assets/scrollDownButton.png";
 import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
 
 function Home() {
   return (
@@ -12,23 +13,24 @@ function Home() {
         direction="column"
         justifyContent="center"
         alignItems="center"
+        spacing={4}
       >
-        <Grid item xs={6}>
+        <Grid item>
           <img src={logo} alt="beachhacks logo" />
         </Grid>
-        <Grid item xs={4}>
-          <h1>Coming Soon</h1>
+        <Grid item>
+          <Typography variant="h1">Coming Soon</Typography>
         </Grid>
-        <Grid item xs={2}>
-          <h2>February 25-26th, 2023</h2>
+        <Grid item>
+          <Typography variant="h4">February 25-26th, 2023</Typography>
         </Grid>
-        <Grid item xs={6}>
-          <h3>
+        <Grid item>
+          <Typography variant="h5">
             Our website is under construction. We'll be here soon with our new
             awesome site.
-          </h3>
+          </Typography>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item>
           <img
             className="drop-down-spacing"
             src={dropDown}
