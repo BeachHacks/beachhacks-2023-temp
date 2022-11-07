@@ -1,4 +1,4 @@
-/* @import url("https://fonts.google.apis.com/css?family=Poppins:400,700,500");
+@import url("https://fonts.google.apis.com/css?family=Poppins:400,700,500");
 
 :root {
   --font-size-m: 24px;
@@ -6,7 +6,7 @@
   --font-size-xl: 100px;
   --font-family-poppins: "Poppins";
 
-} */
+}
 
 body {
   background-image: url('../assets/background.png');
@@ -23,6 +23,10 @@ body {
 
 .frame-2 {
   padding-top: 130px;
+}
+
+.frame-3 {
+  padding-top: 200px;
 }
 
 /* adjusing spacing */
