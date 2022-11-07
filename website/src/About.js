@@ -1,5 +1,7 @@
 import "./styles/App.css";
 
+import { CardIcon } from "./components/CardIcon";
+
 import dropDown from "./assets/scrollDownButton.png";
 import student from "./assets/icons/student.png";
 import earth from "./assets/icons/earth.png";
@@ -45,7 +47,11 @@ function About() {
             justifyContent="center"
             alignItems="center"
             spacing={12}
-          ></Grid>
+          >
+            <Grid item>
+              <CardIcon />
+            </Grid>
+          </Grid>
         </div>
 
         {/* <img src={dropDown} alt="dropdown button" /> */}
