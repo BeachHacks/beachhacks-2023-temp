@@ -44,14 +44,62 @@ body {
 }
 
 /*z-index*/
-img {
+.student-icon{
     position: absolute;
     left: 325px;
     top: 440px;
     z-index: 3;
 }
 
+.student-700 {
+    position: absolute;
+    left: 316px;
+    top: 580px;
+    z-index: 3;
 
+}
+
+.earth-icon {
+    position: absolute;
+    left: 663px;
+    top: 440px;
+    z-index: 3;
+}
+
+.countries-10 {
+  position: absolute;
+    left: 652px;
+    top: 580px;
+    z-index: 3;
+}
+
+.clock-icon {
+  position: absolute;
+  left: 1000px;
+  top: 440px;
+  z-index: 3;
+}
+
+.hours-144 {
+  position: absolute;
+  left: 1000px;
+  top: 580px;
+  z-index: 3;
+}
+
+.folder-icon {
+    position: absolute;
+    left: 1340px;
+    top: 440px;
+    z-index: 3;
+}
+
+.projects-120{
+    position: absolute;
+    left: 1336px;
+    top: 580px;
+    z-index: 3;
+}
 
 /* About page rectangles*/
 .blue-rectangle  {
