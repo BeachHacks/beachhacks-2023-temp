@@ -40,9 +40,14 @@ function Sponsor() {
               >
                 Sponorship Packet
               </Button> */}
-              <button class="button-18" role="button">
+              <a
+                href="https://tinyurl.com/BeachHacks2023-SponsorPacket"
+                target="_blank"
+                class="button-18"
+                role="button"
+              >
                 Sponsorship Packet
-              </button>
+              </a>
             </Grid>
           </Grid>
           <Grid
