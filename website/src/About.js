@@ -47,7 +47,12 @@ function About() {
             spacing={12}
           >
             <Grid item>
-              <div className="blue-rectangle " />
+              <div class="container_row">
+                <div class="layer1">
+                  <img src={student} alt="student icon" />
+                </div>
+                <div class="layer2">More lorem ipsum...</div>
+              </div>
             </Grid>
             <Grid item>
               <div className="blue-rectangle " />
