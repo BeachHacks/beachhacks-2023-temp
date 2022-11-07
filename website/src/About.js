@@ -8,6 +8,8 @@ import folder from "./assets/icons/folder.png";
 
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
 
 import React from "react";
 
@@ -43,11 +45,7 @@ function About() {
             justifyContent="space-evenly"
             alignItems="center"
           >
-            <Grid item>
-              <div id="container">
-                <div className="blue-rectangle" id="infoi" />
-              </div>
-            </Grid>
+            <Grid item></Grid>
           </Grid>
         </div>
 
