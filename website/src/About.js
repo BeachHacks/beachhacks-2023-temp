@@ -1,7 +1,5 @@
 import "./styles/App.css";
 
-import { CardIcon } from "./components/CardIcon";
-
 import dropDown from "./assets/scrollDownButton.png";
 import student from "./assets/icons/student.png";
 import earth from "./assets/icons/earth.png";
@@ -49,7 +47,7 @@ function About() {
             spacing={12}
           >
             <Grid item>
-              <CardIcon />
+              <Typography>Hello</Typography>
             </Grid>
           </Grid>
         </div>
