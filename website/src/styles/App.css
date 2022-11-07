@@ -48,9 +48,3 @@ body {
   width: 241px;
 }
 
-/*overlaying blue and white rectangles*/
-#container {
-  width: 241px;
-  height: 259px;
-  position: relative;
-}
