@@ -23,16 +23,16 @@ function About() {
           spacing={4}
         >
           <Grid item>
-            <Typography variant="h2">What is BeachHacks?</Typography>
+            <h2>What is BeachHacks?</h2>
           </Grid>
           <Grid item>
-            <Typography align="center" variant="h5">
+            <h5>
               BeachHacks is a 24-hour event at California State University, Long
               Beach where students come <br /> together and create technical
               projects. Teams can compete for prizes, connect with industry
               <br />
               sponsors, and participate in workshops.
-            </Typography>
+              </h5>
           </Grid>
         </Grid>
 
