@@ -47,7 +47,16 @@ function About() {
             spacing={12}
           >
             <Grid item>
-              <Typography>Hello</Typography>
+              <div className="blue-rectangle " />
+            </Grid>
+            <Grid item>
+              <div className="blue-rectangle " />
+            </Grid>
+            <Grid item>
+              <div className="blue-rectangle " />
+            </Grid>
+            <Grid item>
+              <div className="blue-rectangle " />
             </Grid>
           </Grid>
         </div>
