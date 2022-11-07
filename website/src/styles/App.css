@@ -43,6 +43,16 @@ body {
   padding-top: 50px;
 }
 
+/*z-index*/
+img {
+    position: absolute;
+    left: 325px;
+    top: 440px;
+    z-index: 3;
+}
+
+
+
 /* About page rectangles*/
 .blue-rectangle  {
   background-color: rgba(0, 71, 255, 1);
