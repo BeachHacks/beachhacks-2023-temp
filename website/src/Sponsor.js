@@ -20,7 +20,7 @@ function Sponsor() {
           spacing={4}
         >
           <Grid item>
-            <Typography variant="h2">Want to Sponsor Us?</Typography>
+            <h2>Want to Sponsor Us?</h2>
           </Grid>
         </Grid>
 
@@ -65,9 +65,9 @@ function Sponsor() {
                 color="inherit"
                 target="_blank"
               >
-                <Typography variant="h5" ml={2}>
+                <h5>
                   beachhacks@csulb.acm.org
-                </Typography>
+                </h5>
               </Link>
             </Grid>
             <Grid ml={4} item display="flex">
@@ -79,9 +79,9 @@ function Sponsor() {
                 color="inherit"
                 target="_blank"
               >
-                <Typography variant="h5" ml={2}>
-                  beachhackscsulb
-                </Typography>
+                
+                 <h5>beachhackscsulb</h5> 
+                
               </Link>
             </Grid>
           </Grid>

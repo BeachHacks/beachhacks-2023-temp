@@ -1,9 +1,9 @@
-@import url("https://fonts.google.apis.com/css?family=Poppins:400,700,500");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
   --font-size-m: 24px;
   --font-size-l: 40px;
-  --font-size-xl: 100px;
+  --font-size-xl: 80px;
   --font-family-poppins: "Poppins";
 
 }
@@ -15,6 +15,19 @@ body {
   background-size: cover;
   color: #16232e;
 }
+
+
+h2 {
+  font-size: var(--font-size-xl);
+  font-family: var(--font-family-poppins);
+  font-weight: 500;
+}
+
+ h5 {
+  font-size: var(--font-size-m);
+  font-family: var(--font-family-poppins);
+  font-weight: 500;
+ }
 
 /* adjusting the entire content of the site*/
 .frame-1 {
@@ -120,8 +133,7 @@ body {
   color: #ffffff;
   cursor: pointer;
   display: inline-flex;
-  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: Poppins;
   font-weight: 600;
   justify-content: center;
   line-height: 20px;
@@ -157,5 +169,5 @@ body {
 .button-18:disabled { 
   cursor: not-allowed;
   background: rgba(0, 0, 0, .08);
-  color: rgba(0, 0, 0, .3);
+  /* color: rgba(0, 0, 0, .3); */
 }
