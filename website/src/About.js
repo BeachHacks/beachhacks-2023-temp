@@ -45,7 +45,13 @@ function About() {
             justifyContent="space-evenly"
             alignItems="center"
           >
-            <Grid item></Grid>
+            <Grid item>
+              <Card>
+                <CardContent>
+                  <Typography>First</Typography>
+                </CardContent>
+              </Card>
+            </Grid>
           </Grid>
         </div>
 
