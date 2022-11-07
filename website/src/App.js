@@ -1,6 +1,7 @@
 import Home from "./Home";
 import About from "./About";
 import Sponsor from "./Sponsor";
+import { CardIcon } from "./components/CardIcon";
 
 import "./styles/App.css";
 

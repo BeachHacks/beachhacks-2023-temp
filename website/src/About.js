@@ -42,17 +42,10 @@ function About() {
           <Grid
             container
             direction="row"
-            justifyContent="space-evenly"
+            justifyContent="center"
             alignItems="center"
-          >
-            <Grid item>
-              <Card>
-                <CardContent>
-                  <Typography>First</Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-          </Grid>
+            spacing={12}
+          ></Grid>
         </div>
 
         {/* <img src={dropDown} alt="dropdown button" /> */}
