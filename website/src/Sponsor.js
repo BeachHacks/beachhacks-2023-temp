@@ -10,7 +10,7 @@ import React from "react";
 
 function Sponsor() {
   return (
-    <div className="frame-2">
+    <div className="frame-3">
       <body>
         <Grid
           container
