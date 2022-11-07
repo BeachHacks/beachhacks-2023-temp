@@ -43,9 +43,11 @@ function About() {
             justifyContent="space-evenly"
             alignItems="center"
           >
-            {/* <Grid item>
-             <
-            </Grid> */}
+            <Grid item>
+              <div id="container">
+                <div className="blue-rectangle" id="infoi" />
+              </div>
+            </Grid>
           </Grid>
         </div>
 
