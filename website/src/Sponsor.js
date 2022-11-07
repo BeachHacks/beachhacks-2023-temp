@@ -10,7 +10,7 @@ import React from "react";
 
 function Sponsor() {
   return (
-    <div className="frame-2">
+    <div className="frame-3">
       <body>
         <Grid
           container
@@ -33,13 +33,16 @@ function Sponsor() {
             mb={8}
           >
             <Grid item>
-              <Button
+              {/* <Button
                 href="https://tinyurl.com/BeachHacks2023-SponsorPacket"
                 variant="contained"
                 target="_blank"
               >
                 Sponorship Packet
-              </Button>
+              </Button> */}
+              <button class="button-18" role="button">
+                Sponsorship Packet
+              </button>
             </Grid>
           </Grid>
           <Grid
