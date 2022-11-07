@@ -20,16 +20,16 @@ function Home() {
         spacing={4}
       >
         <Grid item>
-          <Typography variant="h1">Coming Soon</Typography>
+          <h2>Coming Soon</h2>
         </Grid>
         <Grid item>
-          <Typography variant="h4">February 25-26th, 2023</Typography>
+          <h4>February 25-26th, 2023</h4>
         </Grid>
         <Grid item>
-          <Typography variant="h5" align="center">
+          <h5>
             Our website is under construction. We'll be here soon <br /> with
             our new awesome site.
-          </Typography>
+            </h5>
         </Grid>
         <Grid item>
           <img
