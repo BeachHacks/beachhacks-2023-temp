@@ -1,13 +1,6 @@
 import "./styles/App.css";
 
-import dropDown from "./assets/scrollDownButton.png";
-import student from "./assets/icons/student.png";
-import earth from "./assets/icons/earth.png";
-import clock from "./assets/icons/clock.png";
-import folder from "./assets/icons/folder.png";
-
 import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
 
 import React from "react";
 
