@@ -41,20 +41,20 @@ function Sponsor() {
           mt={10}
         >
           <Grid item display="flex">
-            <Typography mt={5.8}>
+            <Typography mt={5.8} mr={1}>
               <MailIcon />
             </Typography>
             <Link
-              href="mailto:beachhacks@csulb.acm.org"
+              href="mailto:sponsorship@csulb.acm.org"
               color="inherit"
               target="_blank"
               rel="noreferrer"
             >
-              <h5>beachhacks@csulb.acm.org</h5>
+              <h5>sponsorship@csulb.acm.org</h5>
             </Link>
           </Grid>
           <Grid item display="flex">
-            <Typography mt={5.8}>
+            <Typography mt={5.8} mr={1}>
               <InstagramIcon />
             </Typography>
             <Link

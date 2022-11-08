@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles/App.css";
 
-import logo from "./assets/beachHacksLogo.png";
-import dropDown from "./assets/scrollDownButton.png";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+import logo from "./assets/bhbanner.png";
 
 import Grid from "@mui/material/Grid";
 
@@ -30,12 +30,13 @@ function Home() {
             awesome site.
           </h5>
         </Grid>
-        <Grid item>
-          <img
+        <Grid item mt={6}>
+          {/* <img
             className="drop-down-spacing"
             src={dropDown}
             alt="dropdown button"
-          />
+          /> */}
+          <ArrowDownwardIcon className="svg_icons" />
         </Grid>
       </Grid>
     </div>
