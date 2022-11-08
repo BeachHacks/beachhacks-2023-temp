@@ -11,84 +11,61 @@ import React from "react";
 function Sponsor() {
   return (
     <div className="frame-3">
-      <body>
+      <Grid
+        container
+        direction="column"
+        justifyContent="center"
+        alignItems="center"
+        spacing={4}
+      >
+        <Grid item>
+          <h2>Want to Sponsor Us?</h2>
+        </Grid>
+        <Grid item>
+          <a
+            href="https://tinyurl.com/BeachHacks2023-SponsorPacket"
+            target="_blank"
+            class="button-18"
+            role="button"
+          >
+            Sponsorship Packet
+          </a>
+        </Grid>
         <Grid
           container
-          direction="column"
-          justifyContent="center"
+          maxWidth="800px"
+          direction="row"
+          justifyContent="space-evenly"
           alignItems="center"
-          spacing={4}
+          border="1px solid red"
+          mt={10}
         >
-          <Grid item>
-            <h2>Want to Sponsor Us?</h2>
+          <Grid border="1px solid green" item display="flex">
+            <Typography mt={5.8}>
+              <MailIcon />
+            </Typography>
+            <Link
+              href="mailto:beachhacks@csulb.acm.org"
+              color="inherit"
+              target="_blank"
+            >
+              <h5>beachhacks@csulb.acm.org</h5>
+            </Link>
+          </Grid>
+          <Grid border="1px solid green" item display="flex">
+            <Typography mt={5.8}>
+              <InstagramIcon />
+            </Typography>
+            <Link
+              href="https://www.instagram.com/beachhackscsulb/?hl=en"
+              color="inherit"
+              target="_blank"
+            >
+              <h5>beachhackscsulb</h5>
+            </Link>
           </Grid>
         </Grid>
-
-        <div className="rectangle-spacing">
-          <Grid
-            container
-            direction="row"
-            justifyContent="space-evenly"
-            alignItems="center"
-            mb={8}
-          >
-            <Grid item>
-              {/* <Button
-                href="https://tinyurl.com/BeachHacks2023-SponsorPacket"
-                variant="contained"
-                target="_blank"
-              >
-                Sponorship Packet
-              </Button> */}
-              <a
-                href="https://tinyurl.com/BeachHacks2023-SponsorPacket"
-                target="_blank"
-                class="button-18"
-                role="button"
-              >
-                Sponsorship Packet
-              </a>
-            </Grid>
-          </Grid>
-          <Grid
-            container
-            direction="row"
-            justifyContent="center"
-            alignItems="center"
-          >
-            <Grid item display="flex" mr={4}>
-              <Typography mt={0.5}>
-                <MailIcon />
-              </Typography>
-              <Link
-                href="mailto:beachhacks@csulb.acm.org"
-                color="inherit"
-                target="_blank"
-              >
-                <h5>
-                  beachhacks@csulb.acm.org
-                </h5>
-              </Link>
-            </Grid>
-            <Grid ml={4} item display="flex">
-              <Typography mt={0.5}>
-                <InstagramIcon />
-              </Typography>
-              <Link
-                href="https://www.instagram.com/beachhackscsulb/?hl=en"
-                color="inherit"
-                target="_blank"
-              >
-                
-                 <h5>beachhackscsulb</h5> 
-                
-              </Link>
-            </Grid>
-          </Grid>
-        </div>
-
-        {/* <img src={dropDown} alt="dropdown button" /> */}
-      </body>
+      </Grid>
     </div>
   );
 }

@@ -25,11 +25,11 @@ function Home() {
         <Grid item>
           <h4>February 25-26th, 2023</h4>
         </Grid>
-        <Grid item>
+        <Grid item style={{ maxWidth: "600px" }}>
           <h5>
-            Our website is under construction. We'll be here soon <br /> with
-            our new awesome site.
-            </h5>
+            Our website is under construction. We'll be here soon with our new
+            awesome site.
+          </h5>
         </Grid>
         <Grid item>
           <img

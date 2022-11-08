@@ -14,29 +14,28 @@ import React from "react";
 function About() {
   return (
     <div className="frame-2">
-      <body>
-        <Grid
-          container
-          direction="column"
-          justifyContent="center"
-          alignItems="center"
-          spacing={4}
-        >
-          <Grid item>
-            <h2>What is BeachHacks?</h2>
-          </Grid>
-          <Grid item>
-            <h5>
-              BeachHacks is a 24-hour event at California State University, Long
-              Beach where students come <br /> together and create technical
-              projects. Teams can compete for prizes, connect with industry
-              <br />
-              sponsors, and participate in workshops.
-              </h5>
-          </Grid>
+      {/* <body> */}
+      <Grid
+        container
+        direction="column"
+        justifyContent="center"
+        alignItems="center"
+        spacing={4}
+      >
+        <Grid item>
+          <h2>What is BeachHacks?</h2>
         </Grid>
+        <Grid item style={{ maxWidth: "900px" }}>
+          <h5>
+            BeachHacks is a 24-hour event at California State University, Long
+            Beach where students come together and create technical projects.
+            Teams can compete for prizes, connect with industry sponsors, and
+            participate in workshops.
+          </h5>
+        </Grid>
+      </Grid>
 
-        <div className="rectangle-spacing">
+      {/* <div className="rectangle-spacing">
           <Grid
             container
             direction="row"
@@ -65,10 +64,10 @@ function About() {
               <p className="projects-120">120+ Projects</p>
             </Grid>
           </Grid>
-        </div>
+        </div> */}
 
-        {/* <img src={dropDown} alt="dropdown button" /> */}
-      </body>
+      {/* <img src={dropDown} alt="dropdown button" /> */}
+      {/* </body> */}
     </div>
   );
 }
